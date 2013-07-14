@@ -1,0 +1,87 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: #333;
+	color: white;
+}
+
+#title {
+	width:1000px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 36px;
+	padding: 20px;
+}
+
+#footer {
+	width:1000px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+#world {
+	width:1000px;
+	height:400px;
+	margin-right: auto;
+	margin-left: auto;
+	display: relative;
+}
+
+.msg {
+	max-width: 400px;
+	padding: 10px;
+	background: #222;
+	color: #EEE;
+	font-size: 12px;
+
+	box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.4);
+	border-radius: 5px;
+	position:fixed;
+}
+
+#key {
+	font-size: 10px;
+	background: rgba(32,32,32, 0.6);
+	padding: 10px;
+	display: inline-block;
+	border-radius: 3px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.flag {
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+#en {
+	background: #3CB371;
+}
+
+#es {
+	background: #9370DB;
+}
+
+#fr {
+	background: #AFEEEE;
+}
+
+#ru {
+	background: #F0E68C;
+
+}
+
+#unknown {
+	background: #CD5C5C;
+}
+
+.twitter-follow-button {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
